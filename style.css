@@ -2,6 +2,8 @@
 
 header {
     background-image: url(images/header.png);
+    height: 400px;
+    background-size: cover;
 }
 
 body {
