@@ -2,7 +2,7 @@
 
 header {
     background-color: white;
-    height: 600px;
+    height: 400px;
 }
 
 .topo {
@@ -17,6 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 body {
