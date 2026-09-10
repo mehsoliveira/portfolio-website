@@ -19,7 +19,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #355E58;
+    color: #053229;
     font-weight: 600;
 }
 
@@ -45,6 +45,17 @@ body {
 
 main {
     padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+main section:nth-child(3) {
+    grid-column: 2;
+}
+
+main section:last-child {
+    grid-column: 1 / -1;
 }
 
 h1 {
