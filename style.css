@@ -28,6 +28,10 @@ body {
     margin: 0;
 }
 
+main {
+    padding: 40px;
+}
+
 h1 {
     font-size:32px;
     font-weight: 700;
