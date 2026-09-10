@@ -6,6 +6,11 @@ header {
     background-size: cover;
 }
 
+.topo {
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     background-color: #F8F9FA;
     color: #000000;
