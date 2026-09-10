@@ -12,6 +12,21 @@ header {
     padding: 20px 40px;
 }
 
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #355E58;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #B89D47;
+}
+
 .hero-content {
     padding: 40px;
     display: flex;
