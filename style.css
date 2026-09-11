@@ -81,6 +81,12 @@ body {
     grid-column: 1 / -1;
 }
 
+.home-main section:last-child article {
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
 h1 {
     font-size:32px;
     font-weight: 700;
@@ -91,4 +97,9 @@ h1 {
 h2 {
     font-size: 24px;
     color: #355E58;
+}
+
+
+.projects-main {
+    padding: 40px;
 }
