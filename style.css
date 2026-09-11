@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 body {
-    background-color: #F8F9FA;
+    background-color: #E8E3D9;
     color: #000000;
     font-family: DM Sans;
     font-size: 16px;
@@ -79,6 +79,9 @@ body {
 
 .home-main section:last-child {
     grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .home-main section:last-child article {
@@ -99,7 +102,22 @@ h2 {
     color: #355E58;
 }
 
-
 .projects-main {
     padding: 40px;
+}
+
+.project-intro {
+    padding: 40px;
+}
+
+.project-intro h2 {
+    font-size: 32px;
+    color: #053229;
+    margin-bottom: 10px;
+}
+
+.project-intro h2 {
+    font-size: 32px;
+    color: #053229;
+    margin-bottom: 10px;
 }
